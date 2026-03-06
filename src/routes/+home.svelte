@@ -27,7 +27,7 @@
   </div>
 </Section>
 
-<!-- SERVICES -->
+<!-- capabilities -->
 <Section>
   <div class="text-center mb-5">
     <h2 class="fw-bold">Capabilities</h2>
