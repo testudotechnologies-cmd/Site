@@ -52,7 +52,7 @@
 		<h1 bind:this={line3} class="hero-text">Empowering Strategy</h1>
 
 		<div bind:this={final} class="final">
-			<img src="../assets/logo-only-inverted.png" class="logo" alt="logo">
+			<img src="$lib/assets/logo-only-inverted.png" class="logo" alt="logo">
 
 			<h1 class="brand">TESTUDO TECHNOLOGIES</h1>
 

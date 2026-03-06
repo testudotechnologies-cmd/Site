@@ -1,5 +1,5 @@
 <script>
-  export let logo = "../assets/logo-inverted.png";
+  export let logo = "$lib/assets/logo-inverted.png";
   export let brand = "MyApp";
 </script>
 
