@@ -131,6 +131,7 @@
   let warroomVideo;
 
   function flash(video) {
+    // TODO: find a way to reset the video to the beginning without causing a flash of the first frame before playing
     video.currentTime = 0;
     video.play();
 
