@@ -1,13 +1,26 @@
 :root {
   /* Bootstrap overrides */
-  --bs-primary: #8B0A1A;   /* Burgundy */
-  --bs-secondary: #C9A24A; /* Gold */
+  --bs-primary: #8b0a1a; /* Burgundy */
+  --bs-secondary: #c9a24a; /* Gold */
   --bs-dark: #000000;
-  --bs-light: #FFFFFF;
+  --bs-light: #ffffff;
 
   /* Optional custom tokens */
-  --brand-burgundy: #8B0A1A;
-  --brand-gold: #C9A24A;
+  --brand-burgundy: #8b0a1a;
+  --brand-gold: #c9a24a;
   --brand-black: #000000;
-  --brand-white: #FFFFFF;
+  --brand-white: #ffffff;
+
+  --bs-body-font-family: 'Orbitron', sans-serif;
+}
+
+body,
+.btn,
+.form-control,
+.navbar {
+  font-family: 'Orbitron', sans-serif;
+}
+
+.bg-dark {
+  background-color: #000000 !important;
 }

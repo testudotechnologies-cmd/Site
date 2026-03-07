@@ -1,12 +1,12 @@
 <script>
-  export let logo = '$lib/assets/logo-inverted.png';
+  import logo from '$lib/assets/logo-inverted.png';
 </script>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
     <!-- Logo / Brand -->
     <a class="navbar-brand d-flex align-items-center" href="/">
-      <img src={logo} alt="logo" height="40" class="me-2" />
+      <img src={logo} alt="logo" height="80" class="me-2" />
     </a>
 
     <!-- Mobile Toggle -->
