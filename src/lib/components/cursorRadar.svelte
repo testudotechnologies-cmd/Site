@@ -16,19 +16,20 @@
   });
 </script>
 
-<div class="crosshair" style="left:{x}px; top:{y}px"></div>
+<div class="radar-cursor" style="left:{x}px; top:{y}px"></div>
 
 <style>
   :global(body) {
     cursor: none;
   }
 
-  /* crosshair container */
+  /* professional targeting reticle */
 
-  .crosshair {
+  .radar-cursor {
     position: fixed;
-    width: 16px;
-    height: 16px;
+
+    width: 18px;
+    height: 18px;
 
     transform: translate(-50%, -50%);
     pointer-events: none;
@@ -39,35 +40,41 @@
 
   /* horizontal line */
 
-  .crosshair::before {
+  .radar-cursor::before {
     content: '';
     position: absolute;
 
-    width: 22px;
+    width: 28px;
     height: 2px;
 
     background: var(--bs-primary);
 
     left: 50%;
     top: 50%;
-
     transform: translate(-50%, -50%);
   }
 
   /* vertical line */
 
-  .crosshair::after {
+  .radar-cursor::after {
     content: '';
     position: absolute;
 
+    height: 28px;
     width: 2px;
-    height: 22px;
 
     background: var(--bs-primary);
 
     left: 50%;
     top: 50%;
-
     transform: translate(-50%, -50%);
+  }
+
+  /* subtle HUD glow */
+
+  .radar-cursor {
+    box-shadow:
+      0 0 6px var(--bs-primary),
+      0 0 12px rgba(139, 10, 26, 0.3);
   }
 </style>
