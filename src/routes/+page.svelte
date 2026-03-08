@@ -46,36 +46,56 @@
 
   <div class="row g-4">
     <div class="col-md-4">
-      <div class="card border-0 shadow-sm h-100">
+      <div class="card h-100 bg-dark text-light border-secondary">
+        <!-- <img
+          src="/ugv-turret.png"
+          class="card-img-top"
+          alt="Autonomous turret system"
+        /> -->
         <div class="card-body">
-          <h5>Autonomous Defense Systems</h5>
-          <p>
-            AI-assisted turret platforms designed for rapid detection and
-            response against aerial threats.
+          <h3 class="card-title">Autonomous Counter-Aerial Systems</h3>
+          <p class="card-text">
+            Modular AI-powered turret and UGV turret systems built to detect,
+            track, and engage aerial threats with fast-response targeting and
+            adaptive defense logic.
           </p>
         </div>
       </div>
     </div>
 
     <div class="col-md-4">
-      <div class="card border-0 shadow-sm h-100">
+      <div class="card h-100 bg-dark text-light border-secondary">
+        <!-- <img
+          src="/scan.png"
+          class="card-img-top"
+          alt="Autonomous turret system"
+        /> -->
         <div class="card-body">
-          <h5>Counter-Drone Technology</h5>
-          <p>
-            Advanced sensing, tracking, and interception technologies for modern
-            aerial threats.
+          <h3 class="card-title">Autonomous Reconnaissance & Swarm Scanning</h3>
+          <p class="card-text">
+            Drone-based area scanning powered by AI autonomy, swarm
+            coordination, and friend-or-foe identification to expand situational
+            awareness across contested environments.
           </p>
         </div>
       </div>
     </div>
 
     <div class="col-md-4">
-      <div class="card border-0 shadow-sm h-100">
+      <div class="card h-100 bg-dark text-light border-secondary">
+        <!-- <img
+          src="/command-comm.png"
+          class="card-img-top"
+          alt="Autonomous turret system"
+        /> -->
         <div class="card-body">
-          <h5>AI Defense Systems</h5>
-          <p>
-            Machine learning systems that enhance situational awareness and
-            defensive response.
+          <h3 class="card-title">
+            Battlefield Communication & Fusion Software
+          </h3>
+          <p class="card-text">
+            Software systems designed to improve coordination between ground
+            detachments and command centers through auditable ledgers, sensor
+            fusion, and trusted identification workflows.
           </p>
         </div>
       </div>
