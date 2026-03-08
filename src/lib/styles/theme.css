@@ -24,7 +24,9 @@ body,
 .bg-dark {
   background-color: #000000 !important;
 }
-
+.bg-primary {
+  background-color: #750613 !important;
+}
 .services-hero {
   padding: 120px 0 80px;
 }

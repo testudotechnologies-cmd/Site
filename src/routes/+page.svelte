@@ -106,7 +106,7 @@
 </Section>
 
 <!-- CALL TO ACTION -->
-<Section bg="bg-dark text-light" padding="py-5">
+<Section padding="py-5" bg="bg-primary text-light">
   <div class="text-center">
     <h2 class="fw-bold mb-3">Ready to Build Strength?</h2>
 
@@ -117,3 +117,9 @@
     <a href="/contact" class="btn btn-secondary btn-lg"> Get Started </a>
   </div>
 </Section>
+
+<style>
+  .btn-secondary {
+    background-color: #000000;
+  }
+</style>
