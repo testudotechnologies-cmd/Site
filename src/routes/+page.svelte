@@ -8,6 +8,7 @@
 <!-- ABOUT -->
 <Section bg="bg-dark text-light">
   <div class="row align-items-center justify-content-center">
+    
     <div class="col-lg-6 text-center text-lg-start">
       <h2 class="fw-bold mb-4">Resilience by Design</h2>
 
@@ -26,11 +27,7 @@
         operations and, most importantly, <strong>saving lives</strong> when failure 
         is not an option.
       </p>
-    </div>
-  </div>
-
-    <!-- IMAGE -->
-    <div class="col-lg-5 text-center">
+    </div> <div class="col-lg-5 text-center">
       <img
         src="/caesar.png"
         alt="Julius Caesar writing De Bello Gallico"
