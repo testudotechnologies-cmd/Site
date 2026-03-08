@@ -41,7 +41,9 @@
 <!-- services -->
 <Section>
   <div class="text-center mb-5">
-    <h2 class="fw-bold">Services</h2>
+    <a class="nav-link" href="/services">
+      <h2 class="fw-bold">Services</h2>
+    </a>
   </div>
 
   <div class="row g-4">
