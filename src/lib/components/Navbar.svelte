@@ -6,7 +6,7 @@
   <div class="container">
     <!-- Logo / Brand -->
     <a class="navbar-brand d-flex align-items-center" href="/">
-      <img src={logo} alt="logo" height="80" class="me-2" />
+      <img src={logo} alt="logo" height="100" class="me-2" />
     </a>
 
     <!-- Mobile Toggle -->

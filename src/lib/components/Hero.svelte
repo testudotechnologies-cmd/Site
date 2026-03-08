@@ -145,19 +145,37 @@
   onMount(() => {
     const tl = gsap.timeline();
 
-    tl.fromTo(line1, { opacity: 0 }, { opacity: 1, duration: 2 })
-      .call(() => flash(missileVideo))
-      .to(line1, { opacity: 0, duration: 1 }, '+=1')
+    tl.add('line1')
+      .fromTo(
+        line1,
+        { opacity: 0, y: 40 },
+        { opacity: 1, y: 0, duration: 1.2 },
+        'line1',
+      )
+      .call(() => flash(missileVideo), null, 'line1+=0.3')
+      .to(line1, { opacity: 0, duration: 0.8 }, '+=1.2')
       .set(line1, { display: 'none' })
 
-      .fromTo(line2, { opacity: 0 }, { opacity: 1, duration: 2 })
-      .call(() => flash(swarmVideo))
-      .to(line2, { opacity: 0, duration: 1 }, '+=1')
+      .add('line2')
+      .fromTo(
+        line2,
+        { opacity: 0, y: 40 },
+        { opacity: 1, y: 0, duration: 1.2 },
+        'line2',
+      )
+      .call(() => flash(swarmVideo), null, 'line2+=0.3')
+      .to(line2, { opacity: 0, duration: 0.8 }, '+=2')
       .set(line2, { display: 'none' })
 
-      .fromTo(line3, { opacity: 0 }, { opacity: 1, duration: 2 })
-      .call(() => flash(warroomVideo))
-      .to(line3, { opacity: 0, duration: 1 }, '+=1')
+      .add('line3')
+      .fromTo(
+        line3,
+        { opacity: 0, y: 40 },
+        { opacity: 1, y: 0, duration: 1.2 },
+        'line3',
+      )
+      .call(() => flash(warroomVideo), null, 'line3+=0.3')
+      .to(line3, { opacity: 0, duration: 0.8 }, '+=2')
       .set(line3, { display: 'none' })
 
       .fromTo(
@@ -169,11 +187,6 @@
 </script>
 
 <section class="hero">
-  <!-- HERO VIDEO ALWAYS PLAYING -->
-  <!-- <video autoplay muted loop playsinline class="hero-video">
-    <source src="/video/hero.mp4" type="video/mp4" />
-  </video> -->
-
   <video
     autoplay
     muted
@@ -181,7 +194,7 @@
     playsinline
     class="hero-video"
     bind:this={v}
-    on:loadedmetadata={() => (v.playbackRate = 0.45)}
+    on:loadedmetadata={() => (v.playbackRate = 0.35)}
   >
     <source src="/video/hero.mp4" type="video/mp4" />
   </video>
@@ -207,7 +220,7 @@
     <h1 bind:this={line3}>Empowering Strategy</h1>
 
     <div bind:this={final} class="final">
-      <img src={logo} alt="logo" style="height:50%; margin-bottom:1rem;" />
+      <img src={logo} class="logo" alt="logo" />
 
       <h1 class="brand">TESTUDO TECHNOLOGIES</h1>
 
@@ -230,9 +243,11 @@
     position: absolute;
     inset: 0;
     width: 100%;
-    height: 100%;
+    height: 120%;
     object-fit: cover;
     z-index: 0;
+
+    object-position: top -20%;
   }
 
   .flash-video {
@@ -258,8 +273,21 @@
     top: 40%;
     left: 0;
     width: 100%;
-    font-size: 3rem;
+    font-size: clamp(3rem, 5vw, 5rem);
     opacity: 0;
+
+    padding: 20px 40px;
+
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    display: inline-block;
+
+    backdrop-filter: blur(4px);
+
+    box-shadow:
+      0 0 10px rgba(255, 255, 255, 0.3),
+      inset 0 0 10px rgba(255, 255, 255, 0.2);
+
+    letter-spacing: clamp(2px, 0.4vw, 6px);
   }
 
   .final {
@@ -270,12 +298,18 @@
   }
 
   .brand {
-    letter-spacing: 4px;
-    font-size: 3rem;
+    font-size: clamp(3rem, 5vw, 5rem);
+    letter-spacing: clamp(2px, 0.4vw, 6px);
   }
 
   .tagline {
     color: var(--bs-secondary);
-    font-size: 2rem;
+    font-size: clamp(2rem, 5vw, 4rem);
+  }
+
+  .logo {
+    width: clamp(300px, 30vw, 500px);
+    height: auto;
+    margin: 0 auto 1rem;
   }
 </style>

@@ -7,8 +7,9 @@
 <Hero />
 <!-- ABOUT -->
 <Section bg="bg-dark text-light">
-  <div class="row justify-content-center text-center">
-    <div class="col-lg-7">
+  <div class="row align-items-center justify-content-center">
+    <!-- TEXT -->
+    <div class="col-lg-6 text-center text-lg-start">
       <h2 class="fw-bold mb-4">Resilience by Design</h2>
 
       <blockquote class="blockquote">
@@ -23,6 +24,16 @@
         Like the Roman testudo formation that inspired our name, our systems are
         engineered to withstand pressure and protect those behind them.
       </p>
+    </div>
+
+    <!-- IMAGE -->
+    <div class="col-lg-5 text-center">
+      <img
+        src="/caesar.png"
+        alt="Julius Caesar writing De Bello Gallico"
+        class="img-fluid rounded shadow-lg"
+        style="max-height:420px;"
+      />
     </div>
   </div>
 </Section>
@@ -75,7 +86,7 @@
 <!-- CALL TO ACTION -->
 <Section bg="bg-dark text-light" padding="py-5">
   <div class="text-center">
-    <h2 class="fw-bold mb-3">Ready to Build Something Resilient?</h2>
+    <h2 class="fw-bold mb-3">Ready to Build Strength?</h2>
 
     <p class="mb-4">
       Partner with Testudo Technologies to engineer solutions that endure.
