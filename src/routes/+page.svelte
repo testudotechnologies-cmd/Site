@@ -27,7 +27,7 @@
         is not an option.
       </p>
     </div>
-  </div> </Section>
+  </div>
 
     <!-- IMAGE -->
     <div class="col-lg-5 text-center">
