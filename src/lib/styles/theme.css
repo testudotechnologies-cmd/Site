@@ -25,7 +25,10 @@ body,
   background-color: #000000 !important;
 }
 
-html {
-  scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
+.services-hero {
+  padding: 120px 0 80px;
+}
+
+.service-block {
+  scroll-margin-top: 90px;
 }
