@@ -39,7 +39,8 @@
 </Section>
 
 <!-- services -->
-<Section>
+
+<Section bg="bg-dark text-light" padding="py-5">
   <div class="text-center mb-5">
     <a class="nav-link" href="/services">
       <h1 class="fw-bold">Services</h1>
@@ -47,63 +48,67 @@
   </div>
 
   <div class="row g-4">
-    <div class="col-md-4">
-      <div class="card h-100 bg-dark text-light border-secondary">
-        <!-- <img
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 bg-dark text-light border-secondary">
+          <!-- <img
           src="/ugv-turret.png"
           class="card-img-top"
           alt="Autonomous turret system"
         /> -->
-        <div class="card-body">
-          <h3 class="card-title">Autonomous Counter-Aerial Systems</h3>
-          <p class="card-text">
-            Modular AI-powered turret and UGV turret systems built to detect,
-            track, and engage aerial threats with fast-response targeting and
-            adaptive defense logic.
-          </p>
+          <div class="card-body">
+            <h3 class="card-title">Autonomous Counter-Aerial Systems</h3>
+            <p class="card-text">
+              Modular AI-powered turret and UGV turret systems built to detect,
+              track, and engage aerial threats with fast-response targeting and
+              adaptive defense logic.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="col-md-4">
-      <div class="card h-100 bg-dark text-light border-secondary">
-        <!-- <img
+      <div class="col-md-4">
+        <div class="card h-100 bg-dark text-light border-secondary">
+          <!-- <img
           src="/scan.png"
           class="card-img-top"
           alt="Autonomous turret system"
         /> -->
-        <div class="card-body">
-          <h3 class="card-title">Autonomous Reconnaissance & Swarm Scanning</h3>
-          <p class="card-text">
-            Drone-based area scanning powered by AI autonomy, swarm
-            coordination, and friend-or-foe identification to expand situational
-            awareness across contested environments.
-          </p>
+          <div class="card-body">
+            <h3 class="card-title">
+              Autonomous Reconnaissance & Swarm Scanning
+            </h3>
+            <p class="card-text">
+              Drone-based area scanning powered by AI autonomy, swarm
+              coordination, and friend-or-foe identification to expand
+              situational awareness across contested environments.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="col-md-4">
-      <div class="card h-100 bg-dark text-light border-secondary">
-        <!-- <img
+      <div class="col-md-4">
+        <div class="card h-100 bg-dark text-light border-secondary">
+          <!-- <img
           src="/command-comm.png"
           class="card-img-top"
           alt="Autonomous turret system"
         /> -->
-        <div class="card-body">
-          <h3 class="card-title">
-            Battlefield Communication & Fusion Software
-          </h3>
-          <p class="card-text">
-            Software systems designed to improve coordination between ground
-            detachments and command centers through auditable ledgers, sensor
-            fusion, and trusted identification workflows.
-          </p>
+          <div class="card-body">
+            <h3 class="card-title">
+              Battlefield Communication & Fusion Software
+            </h3>
+            <p class="card-text">
+              Software systems designed to improve coordination between ground
+              detachments and command centers through auditable ledgers, sensor
+              fusion, and trusted identification workflows.
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</Section>
+  </div></Section
+>
 
 <!-- CALL TO ACTION -->
 <Section padding="py-5" bg="bg-primary text-light">

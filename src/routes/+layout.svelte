@@ -9,11 +9,13 @@
 
   import Navbar from '$lib/components/Navbar.svelte';
   import Footer from '$lib/components/Footer.svelte';
+  import CursorRadar from '$lib/components/cursorRadar.svelte';
 </script>
 
 <Navbar />
 
 <main>
+  <CursorRadar />
   <slot />
 </main>
 

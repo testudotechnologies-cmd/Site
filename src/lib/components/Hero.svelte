@@ -187,7 +187,11 @@
 </script>
 
 <section class="hero">
-  <video
+  <div
+    class="blackveil"
+    style="background-color: black; opacity: 0.60; z-index: 2; position: absolute; inset: 0; top: -20%;"
+  ></div>
+  <!-- <video
     autoplay
     muted
     loop
@@ -197,7 +201,11 @@
     on:loadedmetadata={() => (v.playbackRate = 0.35)}
   >
     <source src="/video/hero.mp4" type="video/mp4" />
-  </video>
+  </video> -->
+  <div
+    class="shield"
+    style="background-image: url('/shieldformation.png'); background-size: cover; background-position: bottom; opacity: 1; z-index: 1;position: absolute;   inset: 0;"
+  ></div>
 
   <!-- FLASH VIDEOS -->
   <video bind:this={missileVideo} muted playsinline class="flash-video">
@@ -220,7 +228,7 @@
     <h1 bind:this={line3}>Empowering Strategy</h1>
 
     <div bind:this={final} class="final">
-      <img src={logo} class="logo" alt="logo" />
+      <img src={logo} class="logo" style="opacity: 0.9;" alt="logo" />
 
       <h1 class="brand">TESTUDO TECHNOLOGIES</h1>
 
