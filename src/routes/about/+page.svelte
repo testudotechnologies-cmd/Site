@@ -14,48 +14,59 @@
   <h2 class="mb-4">Why Our Systems Are More Accessible</h2>
 
   <p>
-    Traditional defense systems are designed for large-scale procurement
-    programs and often require extremely high budgets, complex logistics, and
-    long deployment timelines.
+    Traditional defense systems are designed for <strong
+      >large-scale procurement programs</strong
+    >
+    and often require <strong>extremely high budgets</strong>, complex
+    logistics, and <strong>long deployment timelines</strong>.
   </p>
 
   <p>
-    Testudo Technologies focuses on a different approach: building modular,
-    software-driven systems that dramatically reduce hardware complexity while
-    maintaining operational capability.
+    <strong>Testudo Technologies</strong> focuses on a different approach:
+    building
+    <strong>modular, software-driven systems</strong> that dramatically reduce
+    hardware complexity while maintaining
+    <strong>operational capability</strong>.
   </p>
 
   <p>
-    By leveraging modern AI software, commercially available components, and
-    modular design principles, we are able to deliver systems that remain
-    significantly more accessible while still addressing emerging threats such
-    as small aerial platforms.
+    By leveraging <strong>modern AI software</strong>,
+    <strong>commercially available components</strong>, and
+    <strong>modular design principles</strong>, we are able to deliver systems
+    that remain <strong>significantly more accessible</strong> while still
+    addressing
+    <strong>emerging threats such as small aerial platforms</strong>.
   </p>
 
   <div class="row mt-5">
     <div class="col-md-4">
       <h4>Software-First Design</h4>
       <p>
-        Our systems emphasize software intelligence over heavy hardware,
-        allowing rapid iteration, continuous updates, and lower deployment
-        costs.
+        Our systems emphasize <strong>software intelligence</strong> over heavy
+        hardware, allowing <strong>rapid iteration</strong>,
+        <strong>continuous updates</strong>, and
+        <strong>lower deployment costs</strong>.
       </p>
     </div>
 
     <div class="col-md-4">
       <h4>Modular Architecture</h4>
       <p>
-        Each system can operate independently or integrate into larger defense
-        networks, allowing organizations to scale capabilities incrementally.
+        Each system can operate <strong>independently</strong> or integrate into
+        <strong>larger defense networks</strong>, allowing organizations to
+        <strong>scale capabilities incrementally</strong>.
       </p>
     </div>
 
     <div class="col-md-4">
       <h4>Filling the Capability Gap</h4>
       <p>
-        We focus on the operational space between large legacy systems and
-        lightweight tactical tools, providing adaptable technologies suited for
-        modern operational environments.
+        We focus on the operational space between <strong
+          >large legacy systems</strong
+        >
+        and <strong>lightweight tactical tools</strong>, providing
+        <strong>adaptable technologies</strong> suited for
+        <strong>modern operational environments</strong>.
       </p>
     </div>
   </div>
