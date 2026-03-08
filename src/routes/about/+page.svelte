@@ -1,4 +1,4 @@
-<section class="container py-5 text-light">
+<section class="container py-5 text-dark">
   <h1>About</h1>
 
   <p>
