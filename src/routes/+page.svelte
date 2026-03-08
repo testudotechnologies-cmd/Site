@@ -8,7 +8,6 @@
 <!-- ABOUT -->
 <Section bg="bg-dark text-light">
   <div class="row align-items-center justify-content-center">
-    <!-- TEXT -->
     <div class="col-lg-6 text-center text-lg-start">
       <h2 class="fw-bold mb-4">Resilience by Design</h2>
 
@@ -28,6 +27,7 @@
         is not an option.
       </p>
     </div>
+  </div> </Section>
 
     <!-- IMAGE -->
     <div class="col-lg-5 text-center">
