@@ -42,7 +42,7 @@
 <Section>
   <div class="text-center mb-5">
     <a class="nav-link" href="/services">
-      <h2 class="fw-bold">Services</h2>
+      <h1 class="fw-bold">Services</h1>
     </a>
   </div>
 

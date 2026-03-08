@@ -1,4 +1,4 @@
-<section class="container py-5 text-dark">
+<section class="container py-5">
   <h1>About</h1>
 
   <p>
@@ -9,9 +9,7 @@
     to secure mission-critical operations and, most importantly,
     <strong>saving lives</strong> when failure is not an option.
   </p>
-</section>
-<section class="container py-5">
-  <h2 class="mb-4">Why Our Systems Are More Accessible</h2>
+  <h1 class="mb-4">Why Our Systems Are More Accessible</h1>
 
   <p>
     Traditional defense systems are designed for <strong
@@ -36,7 +34,7 @@
 
   <div class="row mt-5">
     <div class="col-md-4">
-      <h4>Software-First Design</h4>
+      <h2>Software-First Design</h2>
       <p>
         Our systems emphasize software intelligence over heavy hardware,
         allowing rapid iteration and lower deployment costs.
@@ -44,7 +42,7 @@
     </div>
 
     <div class="col-md-4">
-      <h4>Modular Architecture</h4>
+      <h2>Modular Architecture</h2>
       <p>
         Each system can operate independently or integrate into larger defense
         networks, allowing organizations to scale capabilities incrementally.
@@ -52,7 +50,7 @@
     </div>
 
     <div class="col-md-4">
-      <h4>Filling the Capability Gap</h4>
+      <h2>Filling the Capability Gap</h2>
       <p>
         We focus on the space between large legacy systems and lightweight
         tactical tools, delivering adaptable technologies for modern operational

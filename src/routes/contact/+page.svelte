@@ -44,10 +44,13 @@
         <div class="mb-3">
           <label for="subject" class="form-label">Subject</label>
           <select id="subject" class="form-control">
-            <option>General Inquiry</option>
-            <option>System Demonstration</option>
-            <option>Procurement Request</option>
-            <option>Technical Collaboration</option>
+            <option value="">Choose a subject</option>
+
+            <option value="general">General Inquiry</option>
+
+            <option value="partnership">Partnership</option>
+
+            <option value="work">Work With Us</option>
           </select>
         </div>
 
@@ -59,6 +62,11 @@
             rows="5"
             placeholder="Describe your request"
           ></textarea>
+        </div>
+
+        <!-- PDF Upload -->
+        <div class="mb-4">
+          <input type="file" class="form-control" accept=".pdf" />
         </div>
 
         <button class="btn btn-dark mt-2"> Send Inquiry </button>
