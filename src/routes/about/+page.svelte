@@ -17,56 +17,46 @@
     Traditional defense systems are designed for <strong
       >large-scale procurement programs</strong
     >
-    and often require <strong>extremely high budgets</strong>, complex
-    logistics, and <strong>long deployment timelines</strong>.
+    and often require extremely high budgets, complex logistics, and long deployment
+    timelines.
   </p>
 
   <p>
     <strong>Testudo Technologies</strong> focuses on a different approach:
-    building
-    <strong>modular, software-driven systems</strong> that dramatically reduce
-    hardware complexity while maintaining
-    <strong>operational capability</strong>.
+    building <strong>modular, software-driven systems</strong> that reduce hardware
+    complexity while maintaining operational capability.
   </p>
 
   <p>
-    By leveraging <strong>modern AI software</strong>,
-    <strong>commercially available components</strong>, and
-    <strong>modular design principles</strong>, we are able to deliver systems
-    that remain <strong>significantly more accessible</strong> while still
-    addressing
-    <strong>emerging threats such as small aerial platforms</strong>.
+    By leveraging <strong>modern AI software</strong>, commercially available
+    components, and modular design principles, we deliver systems that remain
+    <strong>significantly more accessible</strong> while still addressing emerging
+    threats such as small aerial platforms.
   </p>
 
   <div class="row mt-5">
     <div class="col-md-4">
       <h4>Software-First Design</h4>
       <p>
-        Our systems emphasize <strong>software intelligence</strong> over heavy
-        hardware, allowing <strong>rapid iteration</strong>,
-        <strong>continuous updates</strong>, and
-        <strong>lower deployment costs</strong>.
+        Our systems emphasize software intelligence over heavy hardware,
+        allowing rapid iteration and lower deployment costs.
       </p>
     </div>
 
     <div class="col-md-4">
       <h4>Modular Architecture</h4>
       <p>
-        Each system can operate <strong>independently</strong> or integrate into
-        <strong>larger defense networks</strong>, allowing organizations to
-        <strong>scale capabilities incrementally</strong>.
+        Each system can operate independently or integrate into larger defense
+        networks, allowing organizations to scale capabilities incrementally.
       </p>
     </div>
 
     <div class="col-md-4">
       <h4>Filling the Capability Gap</h4>
       <p>
-        We focus on the operational space between <strong
-          >large legacy systems</strong
-        >
-        and <strong>lightweight tactical tools</strong>, providing
-        <strong>adaptable technologies</strong> suited for
-        <strong>modern operational environments</strong>.
+        We focus on the space between large legacy systems and lightweight
+        tactical tools, delivering adaptable technologies for modern operational
+        environments.
       </p>
     </div>
   </div>
