@@ -1,5 +1,6 @@
 <script>
   import logo from '$lib/assets/logo-inverted.png';
+  import { page } from '$app/stores';
 </script>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -24,21 +25,51 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link active" href="/">Home</a>
+          <a
+            class="nav-link {$page.url.pathname === '/' ? 'active' : ''}"
+            href="/"
+          >
+            Home
+          </a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="/about">About</a>
+          <a
+            class="nav-link {$page.url.pathname === '/about' ? 'active' : ''}"
+            href="/about"
+          >
+            About
+          </a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="/services">Services</a>
+          <a
+            class="nav-link {$page.url.pathname === '/services'
+              ? 'active'
+              : ''}"
+            href="/services"
+          >
+            Services
+          </a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="/contact">Contact</a>
+          <a
+            class="nav-link {$page.url.pathname === '/contact' ? 'active' : ''}"
+            href="/contact"
+          >
+            Contact
+          </a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
+
+<style>
+  .nav-link.active {
+    color: white !important;
+    font-weight: 600;
+    border-bottom: 2px solid white;
+  }
+</style>
