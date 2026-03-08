@@ -7,19 +7,24 @@
   </p>
 
   <div class="row">
-    <!-- CONTACT FORM -->
-    <div class="col-md-6">
+    <div class="col-md-6 mb-5">
       <h3 class="mb-4">Send an Inquiry</h3>
 
       <form>
         <div class="mb-3">
-          <label class="form-label">Name</label>
-          <input type="text" class="form-control" placeholder="Your name" />
+          <label for="name" class="form-label">Name</label>
+          <input
+            id="name"
+            type="text"
+            class="form-control"
+            placeholder="Your name"
+          />
         </div>
 
         <div class="mb-3">
-          <label class="form-label">Organization</label>
+          <label for="org" class="form-label">Organization</label>
           <input
+            id="org"
             type="text"
             class="form-control"
             placeholder="Company or organization"
@@ -27,8 +32,9 @@
         </div>
 
         <div class="mb-3">
-          <label class="form-label">Email</label>
+          <label for="email" class="form-label">Email</label>
           <input
+            id="email"
             type="email"
             class="form-control"
             placeholder="your@email.com"
@@ -36,8 +42,8 @@
         </div>
 
         <div class="mb-3">
-          <label class="form-label">Subject</label>
-          <select class="form-control">
+          <label for="subject" class="form-label">Subject</label>
+          <select id="subject" class="form-control">
             <option>General Inquiry</option>
             <option>System Demonstration</option>
             <option>Procurement Request</option>
@@ -46,8 +52,9 @@
         </div>
 
         <div class="mb-3">
-          <label class="form-label">Message</label>
+          <label for="message" class="form-label">Message</label>
           <textarea
+            id="message"
             class="form-control"
             rows="5"
             placeholder="Describe your request"
@@ -58,13 +65,10 @@
       </form>
     </div>
 
-    <!-- CONTACT INFO -->
     <div class="col-md-6">
       <h3 class="mb-4">Contact Information</h3>
 
-      <p>
-        <strong>Testudo Technologies</strong>
-      </p>
+      <p><strong>Testudo Technologies</strong></p>
 
       <p>
         Defense technology research and development focused on autonomous
