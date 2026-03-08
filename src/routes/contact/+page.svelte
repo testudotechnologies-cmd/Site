@@ -1,4 +1,4 @@
-<section class="container py-5 text-light">
+<section class="container py-5">
   <h1 class="mb-4">Contact</h1>
 
   <p class="mb-5">
@@ -54,7 +54,7 @@
           ></textarea>
         </div>
 
-        <button class="btn btn-outline-light mt-2"> Send Inquiry </button>
+        <button class="btn btn-dark mt-2"> Send Inquiry </button>
       </form>
     </div>
 
@@ -95,3 +95,15 @@
     </div>
   </div>
 </section>
+
+<style>
+  .form-control {
+    background-color: #ffffff;
+    color: #000;
+    border: 1px solid #ccc;
+  }
+
+  .form-control::placeholder {
+    color: #666;
+  }
+</style>
