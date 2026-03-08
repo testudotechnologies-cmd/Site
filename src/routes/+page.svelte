@@ -38,10 +38,10 @@
   </div>
 </Section>
 
-<!-- capabilities -->
+<!-- services -->
 <Section>
   <div class="text-center mb-5">
-    <h2 class="fw-bold">Capabilities</h2>
+    <h2 class="fw-bold">Services</h2>
   </div>
 
   <div class="row g-4">
