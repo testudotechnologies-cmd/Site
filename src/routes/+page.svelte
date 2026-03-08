@@ -8,7 +8,7 @@
 <!-- ABOUT -->
 <Section bg="bg-dark text-light">
   <div class="row align-items-center justify-content-center">
-    
+    <!-- TEXT -->
     <div class="col-lg-6 text-center text-lg-start">
       <h2 class="fw-bold mb-4">Resilience by Design</h2>
 
@@ -20,14 +20,14 @@
         </footer>
       </blockquote>
 
-      <p class="mt-4 lead">
-        Inspired by the early rigor of the best defense startups, we engineer 
-        <strong>AI-powered</strong> systems capable of true <strong>autonomy</strong>. 
-        Like the Roman <em>Testudo</em>, our technology forms an impenetrable shield—delivering absolute <strong>protection</strong> to secure mission-critical 
-        operations and, most importantly, <strong>saving lives</strong> when failure 
-        is not an option.
+      <p class="mt-4">
+        Like the Roman testudo formation that inspired our name, our systems are
+        engineered to withstand pressure and protect those behind them.
       </p>
-    </div> <div class="col-lg-5 text-center">
+    </div>
+
+    <!-- IMAGE -->
+    <div class="col-lg-5 text-center">
       <img
         src="/caesar.png"
         alt="Julius Caesar writing De Bello Gallico"
