@@ -1,5 +1,5 @@
 <script>
-  const CLOUD_NAME = 'YOUR_CLOUD_NAME';
+  const CLOUD_NAME = 'dtiml9sgz';
 
   let name = '';
   let company = '';
