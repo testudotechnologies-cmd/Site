@@ -1,36 +1,63 @@
-:root {
-  /* Bootstrap overrides */
-  --bs-primary: #8b0a1a; /* Burgundy */
-  --bs-secondary: #c9a24a; /* Gold */
-  --bs-dark: #000000;
-  --bs-light: #ffffff;
+/* 1. Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600&family=Russo+One&family=Share+Tech+Mono&display=swap');
 
-  /* Optional custom tokens */
+:root {
+  /* --- Bootstrap Overwrites --- */
+  --bs-primary: #8b0a1a;       /* Your Burgundy */
+  --bs-secondary: #c9a24a;     /* Your Gold */
+  --bs-dark: #000000;          /* True Black */
+  --bs-light: #ffffff;
+  
+  /* --- Body & Background Overwrites --- */
+  --bs-body-bg: #000000;
+  --bs-body-color: #ffffff;
+  --bs-body-font-family: 'Rajdhani', sans-serif;
+
+  /* --- Custom Tokens --- */
   --brand-burgundy: #8b0a1a;
   --brand-gold: #c9a24a;
-  --brand-black: #000000;
-  --brand-white: #ffffff;
-
-  --bs-body-font-family: 'Orbitron', sans-serif;
+  --header-font: 'Russo One', sans-serif;
+  --tech-font: 'Share Tech Mono', monospace;
 }
 
-body,
-.btn,
-.form-control,
-.navbar {
-  font-family: 'Orbitron', sans-serif;
+/* 2. Global Resets for the "Tactical" Look */
+html, body {
+  background-color: #000000 !important;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
 }
 
+/* 3. Typography Mapping */
+h1, h2, h3, h4, .navbar-brand {
+  font-family: var(--header-font);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Ensuring Bootstrap lead and bold classes use the Tech font */
+.lead, .fw-bold, .nav-link {
+  font-family: var(--tech-font);
+  color: var(--bs-secondary); /* Defaulting to Gold for technical data */
+}
+
+/* 4. Component Overwrites */
 .bg-dark {
   background-color: #000000 !important;
 }
+
 .bg-primary {
-  background-color: #750613 !important;
-}
-.services-hero {
-  padding: 120px 0 80px;
+  background-color: var(--bs-primary) !important;
 }
 
-.service-block {
-  scroll-margin-top: 90px;
+.btn {
+  font-family: var(--tech-font);
+  text-transform: uppercase;
+  border-radius: 0px; /* Square edges feel more industrial */
+  letter-spacing: 1px;
+}
+
+/* This fixes the "White Edge" issue once and for all */
+section {
+  background-color: #000000;
 }
