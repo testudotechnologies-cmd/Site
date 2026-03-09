@@ -3,6 +3,9 @@
   import '$lib/styles/theme.css';
   import { onMount } from 'svelte';
 
+  /**
+   * @type {HTMLAudioElement}
+   */
   let music;
   let started = false;
 
