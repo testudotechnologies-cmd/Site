@@ -8,11 +8,16 @@
   let message = '';
 
   /**
-   * @type {string | Blob | null}
+   * @type {File | null}
    */
   let file = null;
 
   async function submitContact() {
+    if (file && file.size > 10 * 1024 * 1024) {
+      alert('PDF must be under 10MB');
+      return;
+    }
+
     let pdfUrl = null;
 
     // upload PDF to Cloudinary
