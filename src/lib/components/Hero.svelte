@@ -5,15 +5,30 @@
 
   let v;
 
+  /** @type {HTMLHeadingElement} */
   let line1;
+
+  /** @type {HTMLHeadingElement} */
   let line2;
+
+  /** @type {HTMLHeadingElement} */
   let line3;
+
+  /** @type {HTMLDivElement} */
   let final;
 
+  /** @type {HTMLVideoElement} */
   let missileVideo;
+
+  /** @type {HTMLVideoElement} */
   let swarmVideo;
+
+  /** @type {HTMLVideoElement} */
   let warroomVideo;
 
+  /**
+   * @param {HTMLVideoElement} video
+   */
   function flash(video) {
     // TODO: find a way to reset the video to the beginning without causing a flash of the first frame before playing
     video.currentTime = 0;
@@ -36,7 +51,7 @@
         { opacity: 1, y: 0, duration: 1.2 },
         'line1',
       )
-      .call(() => flash(missileVideo), null, 'line1+=0.3')
+      .call(() => flash(missileVideo), [], 'line1+=0.3')
       .to(line1, { opacity: 0, duration: 0.8 }, '+=1.2')
       .set(line1, { display: 'none' })
 
@@ -47,7 +62,7 @@
         { opacity: 1, y: 0, duration: 1.2 },
         'line2',
       )
-      .call(() => flash(swarmVideo), null, 'line2+=0.3')
+      .call(() => flash(swarmVideo), [], 'line2+=0.3')
       .to(line2, { opacity: 0, duration: 0.8 }, '+=2')
       .set(line2, { display: 'none' })
 
@@ -58,7 +73,7 @@
         { opacity: 1, y: 0, duration: 1.2 },
         'line3',
       )
-      .call(() => flash(warroomVideo), null, 'line3+=0.3')
+      .call(() => flash(warroomVideo), [], 'line3+=0.3')
       .to(line3, { opacity: 0, duration: 0.8 }, '+=2')
       .set(line3, { display: 'none' })
 
@@ -131,7 +146,7 @@
     justify-content: center;
   }
 
-  .hero-video {
+  /* .hero-video {
     position: absolute;
     inset: 0;
     width: 100%;
@@ -140,7 +155,7 @@
     z-index: 0;
 
     object-position: top -20%;
-  }
+  } */
 
   .flash-video {
     position: absolute;
