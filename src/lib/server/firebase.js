@@ -1,14 +1,17 @@
 import admin from 'firebase-admin';
-import fs from 'fs';
-
-/** @type {import("firebase-admin").ServiceAccount} */
-const serviceAccount = JSON.parse(
-  fs.readFileSync('firebase-auth.json', 'utf8'),
-);
+import {
+  FIREBASE_PROJECT_ID,
+  FIREBASE_CLIENT_EMAIL,
+  FIREBASE_PRIVATE_KEY,
+} from '$env/static/private';
 
 if (!admin.apps.length) {
   admin.initializeApp({
-    credential: admin.credential.cert(serviceAccount),
+    credential: admin.credential.cert({
+      projectId: FIREBASE_PROJECT_ID,
+      clientEmail: FIREBASE_CLIENT_EMAIL,
+      privateKey: FIREBASE_PRIVATE_KEY.replace(/\\n/g, '\n'),
+    }),
   });
 }
 
